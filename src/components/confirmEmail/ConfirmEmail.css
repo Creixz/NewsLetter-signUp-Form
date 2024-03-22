@@ -32,6 +32,12 @@
     background-color: #242742;
 }
 
+.success__button:hover {
+    background: linear-gradient(to bottom left,rgb(255,106,58) 0%, rgb(255,82,123) 100%);
+    box-shadow: 0px 10px 20px 5px rgba(255, 106, 58, 0.3);
+    cursor: pointer;
+}
+
 @media (max-width:37.5rem) {
     .confirm__container {
         margin: 0 2rem;

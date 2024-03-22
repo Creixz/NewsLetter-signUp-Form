@@ -42,7 +42,7 @@
 }
 
 .list__item::before {
-  content: url(./images/icon-list.svg);
+  content: url(/images/icon-list.svg);
 }
 
 .img__newsletter {
