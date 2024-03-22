@@ -14,7 +14,6 @@
     color: #242742;
     line-height: 100%;
     margin-bottom: 1.5rem;
-
 }
 .success__text {
     font-size: 1rem;
@@ -31,4 +30,26 @@
     border-radius: 0.5rem;
     padding: 1rem 0;
     background-color: #242742;
+}
+
+@media (max-width:37.5rem) {
+    .confirm__container {
+        margin: 0 2rem;
+    }
+    .success__title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 26.5625rem) {
+    .confirm__container {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+        padding: 9.3125rem 1.5rem 0;
+    }
+    .success__text {
+        margin-bottom: 16.4375rem;
+    }
 }

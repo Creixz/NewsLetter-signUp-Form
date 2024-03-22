@@ -86,9 +86,14 @@
   }
 }
 
+@media (max-width: 26.5625rem) {
+  .signup__container {
+    margin: 0;
+  }
+}
+
 @media (max-width: 23.4375rem) {
   .signup__container {
     border-radius: 0;
-    margin: 0;
   }
 }
